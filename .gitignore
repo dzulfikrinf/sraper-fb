@@ -17,6 +17,13 @@ output/*.csv
 output/*.log
 output/.tmp/
 
+# Debug output — berisi HTML & screenshot FB (mengandung user ID internal)
+debug/
+debug/*.html
+debug/*.png
+debug/*.json
+debug/*.txt
+
 # Env
 .env
 .env.*
