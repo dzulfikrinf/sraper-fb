@@ -1,0 +1,19 @@
+{
+  "name": "scrape-fb",
+  "version": "1.0.0",
+  "description": "Scraper Facebook Marketplace untuk listing motor Yamaha 1 bulan terakhir",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node src/auth.js",
+    "scrape": "node src/index.js",
+    "test:small": "node src/index.js --max=5"
+  },
+  "keywords": ["facebook", "marketplace", "scraper", "yamaha"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
